@@ -8,3 +8,17 @@
     padding: 12px 47px;
     font-family: 'SourceSansPro Bold';
 }
+@mixin primary-header {
+    font-size: 56px;
+    line-height: 64px;
+    text-align: center;
+    color: #333333;
+    font-family: 'Poppins Bold';
+}
+@mixin primary-text {
+    font-family: 'SourceSansPro SemiBold';
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #333333;
+}

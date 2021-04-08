@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,AAAC,CACN,UAAU,CAAE,MAAM,CAClB,OAAO,CAAE,WAAW,CACvB",
+    "sources": [
+        "../styles/about-us-section.scss"
+    ],
+    "names": [],
+    "file": "about-us-section.min.css"
+}
