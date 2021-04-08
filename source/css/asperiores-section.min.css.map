@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,mBAAmB,AAAC,CAChB,OAAO,CAAE,IAAI,CAChB",
+    "sources": [
+        "../styles/asperiores-section.scss"
+    ],
+    "names": [],
+    "file": "asperiores-section.min.css"
+}
