@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,AAAC,CAIR,OAAO,CAAE,IAAI,CACb,SAAS,CAAE,IAAI,CACf,UAAU,CAAE,OAAO,CACnB,OAAO,CAAE,aAAa,CAUzB,AAjBD,AACI,WADO,CACP,UAAU,AAAC,CACP,OAAO,CAAE,IAAI,CAChB,AAKA,AAAD,eAAK,AAAC,CACF,KAAK,CAAE,GAAG,CAIb,AALA,AAEG,eAFC,CAED,GAAG,AAAC,CACA,KAAK,CAAE,IAAI,CACd,AAEJ,AAAD,mBAAS,AAAC,CACN,KAAK,CAAE,GAAG,CACb",
+    "sources": [
+        "../styles/reiciendis-section.scss"
+    ],
+    "names": [],
+    "file": "reiciendis-section.min.css"
+}
