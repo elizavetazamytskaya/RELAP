@@ -7,6 +7,17 @@
     color: #FFFFFF;
     padding: 12px 47px;
     font-family: 'SourceSansPro Bold';
+    border: none;
+}
+@mixin secondary-button {
+    border: 1px solid #C86DD7;
+    border-radius: 24px;
+    background: white;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #C86DD7;
+    font-family: 'SourceSansPro Bold';
 }
 @mixin primary-header {
     font-size: 56px;

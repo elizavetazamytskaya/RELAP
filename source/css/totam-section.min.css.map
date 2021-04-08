@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,AAAA,MAAM,AAAC,CACV,UAAU,CAAE,OAAO,CACnB,OAAO,CAAE,YAAY,CACrB,UAAU,CAAE,MAAM,CACrB",
+    "sources": [
+        "../styles/totam-section.scss"
+    ],
+    "names": [],
+    "file": "totam-section.min.css"
+}

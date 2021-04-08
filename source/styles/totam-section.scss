@@ -1,0 +1,95 @@
+.totam {
+    background: #FDF2FF;
+    padding: 55px 0 112px;
+    text-align: center;
+    &-header {
+        @include primary-header;
+        margin: 0;
+    }
+    &-descr {
+        @include primary-text;
+        width: 45%;
+        margin: 23px auto 48px;
+    }
+    &-items {
+        display: flex;
+        justify-content: space-around;
+        &-item__primary {
+            padding: 50px 105px;
+            background: #FFFFFF;
+            box-shadow: 16px 16px 48px rgba(0, 0, 0, 0.0994678);
+            border-radius: 3px;
+            &-header {
+                font-size: 24px;
+                line-height: 32px;
+                color: #333333;
+                font-family: 'Poppins Bold';
+                margin: 0;
+            }
+            &-price {
+                font-size: 72px;
+                line-height: 72px;
+                color: #333333;
+                font-family: 'Poppins Bold';
+                margin: 7px 0 26px;
+            }
+            &-list {
+                li {
+                    font-size: 16px;
+                    line-height: 24px;
+                    text-align: center;
+                    color: #333333;
+                    opacity: 0.5;
+                    font-family: 'SourceSansPro Regular';
+                    margin-bottom: 8px;
+                }
+            }
+            &-button {
+                @include secondary-button;
+                padding: 12px 54px;
+                margin-top: 34px;
+            }
+        }
+        &-item__secondary {
+            padding: 50px 105px;
+            background: #FFFFFF;
+            box-shadow: 16px 16px 48px rgba(0, 0, 0, 0.0994678);
+            border-radius: 3px;
+            &-header {
+                font-size: 24px;
+                line-height: 32px;
+                color: #FFFFFF;
+                font-family: 'Poppins Bold';
+                margin: 0;
+            }
+            &-price {
+                font-size: 72px;
+                line-height: 72px;
+                color: #FFFFFF;
+                font-family: 'Poppins Bold';
+                margin: 7px 0 26px;
+            }
+            &-list {
+                li {
+                    font-size: 16px;
+                    line-height: 24px;
+                    text-align: center;
+                    color: #FFFFFF;
+                    opacity: 0.5;
+                    font-family: 'SourceSansPro Regular';
+                    margin-bottom: 8px;
+                }
+            }
+            &-button {
+                @include primary-button;
+                padding: 12px 54px;
+                margin-top: 34px;
+            }
+        }
+        &-item__secondary {
+            background: linear-gradient(224.72deg, #3023AE -1%, #C86DD7 100.5%);
+            box-shadow: 16px 16px 48px rgba(0, 0, 0, 0.101959);
+            border-radius: 3px;
+        }
+    }
+}
