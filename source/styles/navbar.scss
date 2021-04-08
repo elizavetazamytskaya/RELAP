@@ -1,0 +1,29 @@
+.navbar {
+    position: fixed;
+    background: #5A27A4;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    &-logo {
+        margin: 16px 0;
+        font-family: Poppins Bold;
+        text-transform: uppercase;
+        font-size: 40px;
+        line-height: 48px;
+        color: #FFFFFF;
+    }
+    &-items-item {
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        text-decoration: none;
+        margin: 0 25px;
+        &:hover {
+            color:#FFFFFF;
+            opacity: 0.5;
+        }
+    }
+    &-menu {
+        margin-left: 32px;
+    }
+}
