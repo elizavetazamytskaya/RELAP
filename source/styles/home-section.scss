@@ -1,0 +1,41 @@
+section.home-section {
+    background: linear-gradient(224.72deg, #3023AE -1%, #C86DD7 100.5%);
+    padding: 236px 0 160px;
+    .home-section-content {
+        width: 45%;
+    }
+    h1 {
+        font-family: 'Poppins Bold';
+        font-size: 72px;
+        line-height: 72px;
+        color: #FFFFFF;
+        margin: 0;
+    }
+    p {
+        font-family: 'SourceSansPro SemiBold';
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        margin: 26px 0 34px;
+    }
+    button {
+        background: #FFC300;
+        border-radius: 24px;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 12px 47px;
+        font-family: 'SourceSansPro Bold';
+        border: none;
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+    img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 0;
+    }
+}
