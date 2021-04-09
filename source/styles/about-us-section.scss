@@ -14,7 +14,7 @@
         flex-wrap: wrap;
         justify-content: space-between;
         &-item {
-            box-shadow: 16px 16px 48px rgba(0, 0, 0, 0.0994678);
+            box-shadow: $shadow;
             border-radius: 3px;
             display: flex;
             flex-direction: column;
@@ -32,13 +32,8 @@
                 margin: 10px 0;
             }
             &-descr {
-                font-size: 16px;
-                line-height: 24px;
+                @include secondary-text;
                 text-align: center;
-                color: #333333;
-                mix-blend-mode: normal;
-                opacity: 0.5;
-                font-family: 'SourceSansPro Regular';
             }
         }
     }

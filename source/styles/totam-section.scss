@@ -19,6 +19,7 @@
             background: #FFFFFF;
             box-shadow: 16px 16px 48px rgba(0, 0, 0, 0.0994678);
             border-radius: 3px;
+            width: 30%;
             &-header {
                 font-size: 24px;
                 line-height: 32px;
@@ -35,17 +36,12 @@
             }
             &-list {
                 li {
-                    font-size: 16px;
-                    line-height: 24px;
-                    text-align: center;
-                    color: #333333;
-                    opacity: 0.5;
-                    font-family: 'SourceSansPro Regular';
+                    @include secondary-text;
                     margin-bottom: 8px;
                 }
             }
             &-button {
-                @include secondary-button;
+                @include tertiary-button;
                 padding: 12px 54px;
                 margin-top: 34px;
             }
@@ -53,8 +49,9 @@
         &-item__secondary {
             padding: 50px 105px;
             background: #FFFFFF;
-            box-shadow: 16px 16px 48px rgba(0, 0, 0, 0.0994678);
+            box-shadow: $shadow;
             border-radius: 3px;
+            width: 30%;
             &-header {
                 font-size: 24px;
                 line-height: 32px;
@@ -87,8 +84,8 @@
             }
         }
         &-item__secondary {
-            background: linear-gradient(224.72deg, #3023AE -1%, #C86DD7 100.5%);
-            box-shadow: 16px 16px 48px rgba(0, 0, 0, 0.101959);
+            background: $gradient;
+            box-shadow: $shadow;
             border-radius: 3px;
         }
     }

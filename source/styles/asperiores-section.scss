@@ -3,12 +3,13 @@
     align-items: center;
     justify-content: space-between;
     &-descr {
-        width: 45%;
+        width: 50%;
         &-header {
             @include primary-header;
         }
         &-text {
             @include primary-text;
+            width: 90%;
             margin: 23px 0 54px;
         }
         &-items {
@@ -24,12 +25,7 @@
                     margin-top: 7px;
                 }
                 &-descr {
-                    font-size: 16px;
-                    line-height: 24px;
-                    color: #333333;
-                    mix-blend-mode: normal;
-                    opacity: 0.5;
-                    font-family: 'SourceSansPro Regular';
+                    @include secondary-text;
                     margin: 9px 32px 30px 0;
                 }
             }

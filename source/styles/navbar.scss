@@ -3,10 +3,13 @@ nav.navbar {
     width: 100%;
     background: #5A27A4;
     opacity: 0.8;
-    display: flex;
-    align-items: center;
     z-index: 1;
-    p {
+}
+.navbar {
+    .container {
+        display: flex;
+    }
+    &-logo {
         margin: 16px 0;
         font-family: Poppins Bold;
         text-transform: uppercase;
@@ -14,7 +17,7 @@ nav.navbar {
         line-height: 48px;
         color: #FFFFFF;
     }
-    .navbar-items-item {
+    &-items-item {
         font-size: 16px;
         line-height: 24px;
         color: #FFFFFF;

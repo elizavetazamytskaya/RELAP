@@ -7,7 +7,7 @@
     padding: 144px 0 112px;
     &-img {
         width: 40%;
-        background: linear-gradient(224.72deg, #3023AE -1%, #C86DD7 100.5%);
+        background: $gradient;
         border-radius: 3px;
         img {
             width: 100%;
@@ -31,12 +31,7 @@
             margin: 0 0 6px;
         }
         &-descr__regular {
-            font-size: 16px;
-            line-height: 24px;
-            color: #333333;
-            mix-blend-mode: normal;
-            opacity: 0.5;
-            font-family: 'SourceSansPro Regular';
+            @include secondary-text;
             margin: 0 0 36px;
         }
         &-numbers {
@@ -60,16 +55,9 @@
             }
         }
         button {
-            background: #C86DD7;
-            border-radius: 24px;
-            padding: 12px 54px;
-            border: none;
-            font-size: 16px;
-            line-height: 24px;
-            text-align: center;
-            color: #FFFFFF;
-            font-family: 'SourceSansPro Bold';
+            @include secondary-button;
             margin-top: 40px;
+            padding: 12px 54px;
         }
     }
 }

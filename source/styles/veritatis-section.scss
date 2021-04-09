@@ -12,16 +12,11 @@
         &-descr {
             text-align: start;
             width: 30%;
-            font-size: 16px;
-            line-height: 24px;
-            text-align: center;
-            color: #333333;
-            opacity: 0.5;
-            font-family: 'SourceSansPro Regular';
+            @include secondary-text;
             margin: 0 230px 0 152px;
             }
         &-btn {
-            @include secondary-button;
+            @include tertiary-button;
             padding: 12px 61px;
         }
     }
