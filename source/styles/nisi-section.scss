@@ -1,0 +1,46 @@
+.nisi {
+    background: #FDF2FF;
+    padding: 55px 0 96px;
+    &-content {
+        &-header {
+            @include primary-header;
+        }
+        &-items {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 57px;
+            &-item {
+                width: 31%;
+                background: white;
+                box-shadow: 16px 16px 48px rgba(0, 0, 0, 0.0994678);
+                border-radius: 3px;
+                img {
+                    width: 100%;
+                }
+                &-date {
+                    font-size: 12px;
+                    line-height: 24px;
+                    color: #333333;
+                    font-family: 'SourceSansPro SemiBold';
+                    margin: 32px 0 13px 32px;
+                }
+                &-header {
+                    font-size: 24px;
+                    line-height: 32px;
+                    color: #333333;
+                    font-family: 'Poppins Bold';
+                    margin: 0 0 25px 32px;
+                }
+                &-descr {
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #333333;
+                    mix-blend-mode: normal;
+                    opacity: 0.5;
+                    font-family: 'SourceSansPro Regular';
+                    margin: 0 32px 50px 32px;
+                }
+            }
+        }
+    }
+}
