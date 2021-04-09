@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,AAAC,CAIP,OAAO,CAAE,YAAY,CACrB,UAAU,CAAE,OAAO,CACtB,AAND,AACI,UADM,CACN,UAAU,AAAC,CACP,OAAO,CAAE,IAAI,CAChB",
+    "sources": [
+        "../styles/veritatis-section.scss"
+    ],
+    "names": [],
+    "file": "veritatis-section.min.css"
+}
