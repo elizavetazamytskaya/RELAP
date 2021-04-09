@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,AAAC,CACT,OAAO,CAAE,YAAY,CACxB",
+    "sources": [
+        "../styles/repudiandae-section.scss"
+    ],
+    "names": [],
+    "file": "repudiandae-section.min.css"
+}
