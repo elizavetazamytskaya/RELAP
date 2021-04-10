@@ -40,3 +40,25 @@ section.home-section {
         width: 100%;
     }
 }
+@media (max-width: 768px) {
+    .home-section {
+        &-content {
+            width: 80%;
+            &-header {
+                font-size: 56px;
+                line-height: 64px;
+            }
+        }
+    }
+}
+@media (max-width: 376px) {
+    .home-section {
+        &-content {
+            width: 100%;
+            &-header {
+                font-size: 56px;
+                line-height: 64px;
+            }
+        }
+    }
+}

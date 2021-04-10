@@ -2,6 +2,7 @@
     .container {
         display: flex;
         justify-content: center;
+        align-items: center;
     }
     background: #FDF2FF;
     padding: 144px 0 112px;
@@ -58,8 +59,58 @@
             @include secondary-button;
             margin-top: 40px;
             padding: 12px 54px;
+            width: 170px;
             &:hover {
                 opacity: 0.9;
+            }
+        }
+    }
+}
+@media (max-width: 992px) {
+    .reiciendis {
+        &-content {
+            width: 45%;
+        }
+    }
+}
+@media (max-width: 992px) {
+    .reiciendis {
+        padding: 100px 0 90px;
+        .container {
+            flex-direction: column;
+        }
+        &-img {
+            width: 70%;
+            margin-bottom: 50px;
+        }
+        &-content {
+            width: 100%;
+            margin-left: 0;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .reiciendis {
+        &-content {
+            &-header {
+                font-size: 40px;
+                line-height: 48px;
+            }
+        }
+    }
+}
+@media (max-width: 576px) {
+    .reiciendis {
+        &-content {
+            width: 90%;
+            &-descr__bold {
+                margin: 0 0 23px;
+            }
+            &-numbers {
+                justify-content: space-between;
+                &-item {
+                    margin: 0;
+                }
             }
         }
     }

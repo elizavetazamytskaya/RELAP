@@ -64,3 +64,60 @@
         }
     }
 }
+@media (max-width: 992px) {
+    .eaque {
+        &-content {
+            &-descr {
+                width: 80%;
+            }
+            &-items {
+                &-item {
+                    width: 45%;
+                    box-shadow: $shadow;
+                    padding: 15px 20px 15px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+    .eaque {
+        &-content {
+            &-header {
+                font-size: 40px;
+                line-height: 48px;
+            }
+            &-descr {
+                margin: 23px auto 28px;
+            }
+            &-items {
+                flex-direction: column;
+                align-items: center;
+                &-item {
+                    width: 70%;
+                    margin-top: 20px;
+                }
+            }
+            &-buttons {
+                &-btn {
+                    margin-top: 32px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 375px) {
+    .eaque {
+        padding: 55px 0 48px;
+        &-content {
+            &-descr {
+                width: 100%;
+            }
+            &-items {
+                &-item {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

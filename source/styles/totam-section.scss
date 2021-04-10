@@ -15,7 +15,7 @@
         display: flex;
         justify-content: space-around;
         &-item {
-            padding: 50px 105px;
+            padding: 50px 0;
             background: #FFFFFF;
             box-shadow: 16px 16px 48px rgba(0, 0, 0, 0.0994678);
             border-radius: 3px;
@@ -55,6 +55,55 @@
                     .totam-items-item-button {
                         @include primary-button;
                     }
+            }
+        }
+    }
+}
+@media (max-width: 992px) {
+    .totam {
+        &-descr {
+            width: 70%;
+            margin: 23px auto 30px;
+        }
+        &-items {
+            flex-direction: column;
+            align-items: center;
+            &-item {
+                width: 50%;
+                margin-top: 18px;
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+    .totam {
+        &-header {
+            font-size: 40px;
+            line-height: 48px;
+        }
+        &-descr {
+            width: 90%;
+        }
+        &-items {
+            &-item {
+                width: 70%;
+                &-price {
+                    font-size: 72px;
+                    line-height: 72px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 375px) {
+    .totam {
+        &-descr {
+            width: 100%;
+            margin: 23px auto 18px;
+        }
+        &-items {
+            &-item {
+                width: 100%;
             }
         }
     }

@@ -12,8 +12,8 @@
         &-descr {
             text-align: start;
             width: 30%;
+            margin: 0;
             @include secondary-text;
-            margin: 0 230px 0 152px;
             }
         &-btn {
             @include tertiary-button;

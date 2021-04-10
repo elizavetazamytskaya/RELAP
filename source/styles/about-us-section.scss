@@ -38,3 +38,44 @@
         }
     }
 }
+@media (max-width: 992px) {
+    .about-us {
+        &-descr {
+            width: 70%;
+        }
+        &-items {
+            &-item {
+                width: 48%;
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+    .about-us {
+        &-header {
+            font-size: 40px;
+            line-height: 48px;
+        }
+        &-descr {
+            width: 95%;
+        }
+        &-items {
+            flex-direction: column;
+            align-items: center;
+            &-item {
+                width: 70%;
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+    .about-us {
+        padding: 38px 0 80px;
+        &-items {
+            &-item {
+                width: 95%;
+                margin-top: 16px;
+            }
+        }
+    }
+}
