@@ -58,6 +58,9 @@
             @include secondary-button;
             margin-top: 40px;
             padding: 12px 54px;
+            &:hover {
+                opacity: 0.9;
+            }
         }
     }
 }

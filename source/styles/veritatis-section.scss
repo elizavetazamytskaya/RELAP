@@ -18,6 +18,9 @@
         &-btn {
             @include tertiary-button;
             padding: 12px 61px;
+            &:hover {
+                opacity: 0.7;
+            }
         }
     }
     &-items {

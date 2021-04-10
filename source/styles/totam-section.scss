@@ -14,7 +14,7 @@
     &-items {
         display: flex;
         justify-content: space-around;
-        &-item__primary {
+        &-item {
             padding: 50px 105px;
             background: #FFFFFF;
             box-shadow: 16px 16px 48px rgba(0, 0, 0, 0.0994678);
@@ -45,48 +45,17 @@
                 padding: 12px 54px;
                 margin-top: 34px;
             }
-        }
-        &-item__secondary {
-            padding: 50px 105px;
-            background: #FFFFFF;
-            box-shadow: $shadow;
-            border-radius: 3px;
-            width: 30%;
-            &-header {
-                font-size: 24px;
-                line-height: 32px;
-                color: #FFFFFF;
-                font-family: 'Poppins Bold';
-                margin: 0;
+            &:hover {
+                background: $gradient;
+                    .totam-items-item-header,
+                    .totam-items-item-price,
+                    .totam-items-item-list li {
+                        color: #FFFFFF;
+                    }
+                    .totam-items-item-button {
+                        @include primary-button;
+                    }
             }
-            &-price {
-                font-size: 72px;
-                line-height: 72px;
-                color: #FFFFFF;
-                font-family: 'Poppins Bold';
-                margin: 7px 0 26px;
-            }
-            &-list {
-                li {
-                    font-size: 16px;
-                    line-height: 24px;
-                    text-align: center;
-                    color: #FFFFFF;
-                    opacity: 0.5;
-                    font-family: 'SourceSansPro Regular';
-                    margin-bottom: 8px;
-                }
-            }
-            &-button {
-                @include primary-button;
-                padding: 12px 54px;
-                margin-top: 34px;
-            }
-        }
-        &-item__secondary {
-            background: $gradient;
-            box-shadow: $shadow;
-            border-radius: 3px;
         }
     }
 }

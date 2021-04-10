@@ -49,6 +49,9 @@
             button {
                 @include secondary-button;
                 padding: 12px 47px;
+                &:hover {
+                    opacity: 0.9;
+                }
             }
         }
         &-addition {

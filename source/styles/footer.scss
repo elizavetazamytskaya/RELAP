@@ -47,6 +47,9 @@ footer {
                 width: 48px;
                 height: 48px;
                 border: none;
+                &:hover {
+                    opacity: 0.9;
+                }
                 img {
                     position: absolute;
                     top: 50%;
