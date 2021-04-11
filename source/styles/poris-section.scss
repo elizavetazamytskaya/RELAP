@@ -62,3 +62,61 @@
         }
     }
 }
+@media (max-width: 1200px) {
+    .poris {
+        &-img {
+            width: 70%;
+            margin: auto auto;
+        }
+        &-content {
+            margin-left: 90px;
+            &-data {
+                flex-direction: column;
+                button {
+                    width: 170px;
+                    height: 48px;
+                    margin-top: 16px;
+                }
+                input {
+                    width: 345px;
+                    height: 48px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 992px) {
+    .poris {
+        padding: 82px 0 40px;
+        &-content {
+            width: 50%;
+            &-header {
+                font-size: 40px;
+                line-height: 48px;
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+    .poris {
+        .container {
+            flex-direction: column;
+        }
+        &-content {
+            width: 100%;
+            margin-top: 40px;
+            margin-left: 0;
+        }
+    }
+}
+@media (max-width: 576px) {
+    .poris {
+        &-img {
+            width: 95%;
+            img {
+                bottom: 18px;
+                left: 18px;
+            }
+        }
+    }
+}

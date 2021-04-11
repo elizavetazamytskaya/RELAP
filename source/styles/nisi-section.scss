@@ -39,3 +39,42 @@
         }
     }
 }
+@media (max-width: 992px) {
+    .nisi {
+        &-content {
+            &-header {
+                font-size: 40px;
+                line-height: 48px;
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+    .nisi {
+        &-content {
+            &-items {
+                flex-direction: column; 
+                align-items: center;
+                margin-top: 41px;
+                    &-item {
+                        width: 70%;
+                        margin-top: 16px;
+                        &-header {
+                            margin-right: 32px;
+                        }
+                    }
+            }
+        }
+    }
+}
+@media (max-width: 376px) {
+    .nisi {
+        &-content {
+            &-items {
+                    &-item {
+                        width: 100%;
+                    }
+            }
+        }
+    }
+}

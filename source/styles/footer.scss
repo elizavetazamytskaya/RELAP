@@ -27,19 +27,23 @@ footer {
         }
         &-link {
             margin-bottom: 8px;
-        }
-        input {
-            border: 1px solid #DADADA;
-            border-radius: 3px;
-            padding: 12px 0 12px 16px;
-            &::placeholder {
-                @include secondary-text;
-                margin: 0;
+            &:hover {
+                color: #c86dd7;
             }
         }
         &-data {
             display: flex;
-            align-items: start;
+            justify-content: space-between;
+            input {
+                border: 1px solid #DADADA;
+                border-radius: 3px;
+                padding: 12px 0 12px 16px;
+                width: 80%;
+                &::placeholder {
+                    @include secondary-text;
+                    margin: 0;
+                }
+            }
             &-btn {
                 position: relative;
                 background: #C86DD7;
@@ -66,5 +70,35 @@ footer {
     padding-top: 29px;
     &-descr {
         @include secondary-text;
+    }
+}
+@media (max-width: 1200px) {
+    .footer-items {
+        &-item {
+            width: 25%;
+            &-descr {
+                margin-right: 15px;
+            }
+        }
+    }
+}
+@media (max-width: 1200px) {
+    .footer-items {
+        flex-wrap: wrap;
+        &-item {
+            width: 45%;
+        }
+    }
+}
+@media (max-width: 768px) {
+    footer {
+        padding-top: 22px;
+    }
+    .footer-items {
+        flex-wrap: wrap;
+        &-item {
+            width: 80%;
+            margin-top: 40px;
+        }
     }
 }
