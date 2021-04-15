@@ -6,7 +6,7 @@
         &-descr {
             width: 35%;
             &-header {
-                @include primary-header;
+                @include secondary-header;
                 margin-bottom: 39px;
             }
             &-text {
@@ -61,6 +61,9 @@
                     @include secondary-text;
                     margin: 0;
                 }
+                &:focus {
+                    outline: none;
+                }
             }
             &-btn {
                 @include secondary-button;
@@ -79,6 +82,9 @@
                 &::placeholder {
                     @include secondary-text;
                     margin: 0;
+                }
+                &:focus {
+                    outline: none;
                 }
             }
         }

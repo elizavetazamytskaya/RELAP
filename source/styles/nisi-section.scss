@@ -3,7 +3,7 @@
     padding: 55px 0 96px;
     &-content {
         &-header {
-            @include primary-header;
+            @include secondary-header;
         }
         &-items {
             display: flex;

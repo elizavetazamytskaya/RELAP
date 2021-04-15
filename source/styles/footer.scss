@@ -43,6 +43,9 @@ footer {
                     @include secondary-text;
                     margin: 0;
                 }
+                &:focus {
+                    outline: none;
+                }
             }
             &-btn {
                 position: relative;

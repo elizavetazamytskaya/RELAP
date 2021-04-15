@@ -6,7 +6,7 @@
         align-items: center;
         justify-content: space-between;
         &-header {
-            @include primary-header;
+            @include secondary-header;
             margin: 0;
         }
         &-descr {
@@ -29,10 +29,14 @@
         justify-content: space-between;
         margin-top: 64px;
         &-item {
-            padding: 325px 0 75px 32px;
+            padding: 0 0 75px 32px;
             background-repeat: no-repeat;
             background-position: center;
             background-size: auto 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            height: 570px;
             &-header {
                 font-size: 24px;
                 line-height: 32px;
@@ -77,19 +81,14 @@
             margin-top: 48px;
             flex-direction: column;
             align-items: center;
-            #veritatis-items__first-item {
-                flex: 1;
-                width: 50%;
-                padding: 325px 0 40px 32px;
-                margin: 0;
-            }
             #veritatis-items__second-item{
-                flex: 1;
-                width: 50%;
-                padding: 325px 0 40px 32px;
                 margin: 16px 0;  
             }
             &-item {
+                width: 40%;
+                padding: 325px 0 40px 32px;
+                margin: 0;
+                background-size: cover;
                 &-header {
                     width: 75%;
                 }
@@ -107,6 +106,26 @@
                 margin: 24px 0 16px;
             }
         }
+        &-items {
+            &-item {
+                width: 70%;
+            }
+        }
+    }
+}
+@media (max-width: 576px) {
+    .veritatis {
+        padding: 54px 0 64px;
+        &-items {
+            &-item {
+                width: 80%;
+            }
+        }
+    }
+}
+@media (max-width: 376px) {
+    .veritatis {
+        padding: 54px 0 64px;
         &-items {
             &-item {
                 width: 100%;

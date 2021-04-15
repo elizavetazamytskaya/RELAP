@@ -29,6 +29,12 @@
     font-family: 'SourceSansPro Bold';
 }
 @mixin primary-header {
+    font-size: 72px;
+    line-height: 72px;
+    color: #FFFFFF;
+    font-family: 'Poppins Bold';
+}
+@mixin secondary-header {
     font-size: 56px;
     line-height: 64px;
     color: #333333;

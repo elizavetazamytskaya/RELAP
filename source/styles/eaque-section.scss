@@ -3,7 +3,7 @@
     text-align: center;
     &-content {
         &-header {
-           @include primary-header; 
+           @include secondary-header; 
            margin: 0;
         }
         &-descr {

@@ -3,7 +3,7 @@
     padding: 55px 0 112px;
     text-align: center;
     &-header {
-        @include primary-header;
+        @include secondary-header;
         margin: 0;
     }
     &-descr {

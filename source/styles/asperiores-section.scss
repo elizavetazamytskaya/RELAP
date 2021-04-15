@@ -7,7 +7,7 @@
     &-descr {
         width: 50%;
         &-header {
-            @include primary-header;
+            @include secondary-header;
         }
         &-text {
             @include primary-text;

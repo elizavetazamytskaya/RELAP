@@ -24,7 +24,7 @@
         flex-direction: column;
         margin-left: 130px;
         &-header {
-            @include primary-header;
+            @include secondary-header;
             margin: 0 0 23px;
         }
         &-descr__bold {

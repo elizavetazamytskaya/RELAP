@@ -1,8 +1,10 @@
 .about-us {
     text-align: center;
     padding: 55px 0 64px;
+    position: relative;
+    z-index: 1;
     &-header {
-        @include primary-header;
+        @include secondary-header;
     }
     &-descr {
         @include primary-text;
