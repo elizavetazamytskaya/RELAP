@@ -35,9 +35,20 @@
                 margin: 7px 0 26px;
             }
             &-list {
+                padding: 0;
                 li {
                     @include secondary-text;
-                    margin-bottom: 8px;
+                    margin: 0 0 8px;
+                    list-style-type: none;
+                    &:before {
+                        content: '';
+                        display: inline-block;
+                        background-color: #333333;
+                        width: 5px;
+                        height: 5px;
+                        border-radius: 50%;
+                        margin: 0 5px 2px;
+                    }
                 }
             }
             &-button {
@@ -95,8 +106,9 @@
         }
     }
 }
-@media (max-width: 375px) {
+@media (max-width: 376px) {
     .totam {
+        padding: 54px 0 80px;
         &-descr {
             width: 100%;
             margin: 23px auto 18px;

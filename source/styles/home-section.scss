@@ -12,10 +12,7 @@
         position: relative;
         z-index: 1;
         &-header {
-            font-size: 72px;
-            line-height: 72px;
-            color: #FFFFFF;
-            font-family: 'Poppins Bold';
+            @include primary-header;
             margin: 0;
         }
         &-descr {

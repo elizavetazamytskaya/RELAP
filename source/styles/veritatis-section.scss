@@ -43,7 +43,7 @@
                 color: #FFFFFF;
                 font-family: 'Poppins Bold';
                 margin: 0 0;
-                width: 50%;
+                width: 60%;
             }
             &-descr {
                 font-size: 12px;
@@ -69,6 +69,17 @@
         }
     }
 }
+@media (max-width: 1300px) {
+    .veritatis {
+        &-items {
+            &-item {
+                &-header {
+                    width: 75%;
+                }
+            }
+        }
+    }
+}
 @media (max-width: 992px) {
     .veritatis {
         &-content {
@@ -90,7 +101,7 @@
                 margin: 0;
                 background-size: cover;
                 &-header {
-                    width: 75%;
+                    width: 80%;
                 }
             }
         }
